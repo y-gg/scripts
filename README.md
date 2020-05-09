@@ -9,8 +9,8 @@ chmod 755 pre-receive post-receive
 ```
 git config receive.denyCurrentBranch warn
 ```
-2、开发环境（Windows）下源码添加编译服务器地址ip:/home/src or name@ip:/home/src
+2、开发环境（Windows）下源码添加编译服务器地址ip:/home/src or username@ip:/home/src
 ```
 cd src
-git remote add local name@ip:/home/src
+git remote add local username@ip:/home/src
 ```
